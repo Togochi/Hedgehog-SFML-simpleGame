@@ -1,5 +1,7 @@
 # Hedgehog-SFML-simpleGame
- A very simple game in C ++ SFML where you need to move a hedgehog along a horizontal plane using the keys on the keyboard and catch falling leaves.
+ A very simple game in C ++ SFML where you need to move a hedgehog along a horizontal plane using the keys (W, A, S, D or Left, Right etc.) on the keyboard and catch falling leaves. 
+ The player gets a different number of points depending on the type of object caught. For each missed object, the player loses a "reserve of lives". After 1000 points, the speed of falling objects accelerates. 
+ The game has a "Game over" and "Pause" function (press the P key).
 
 The project is suitable for beginners, it has a minimum of OOP, and the code uses the most basic features of the C++ language and the SFML library.
 
