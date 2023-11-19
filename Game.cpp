@@ -253,7 +253,7 @@ void Game::pollEvents()
 				this->window->close();
 			if (this->ev.key.code == sf::Keyboard::P)
 			{
-				this->togglePause(); // Переключение состояния паузы при нажатии клавиши "P"
+				this->togglePause();
 			}
 			break;			
 		}
